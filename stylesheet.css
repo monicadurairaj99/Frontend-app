@@ -1,0 +1,39 @@
+/*======== Styling for page header */
+header {
+    height: 80px; /* Font size, line-height, and family */
+    font: 40px/80px Impact, Gadget, Fantasy;
+    text-align: center; /* Background color, image, position */
+    background-color: #c4d08e;
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Round the top corners */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+   }
+   table {
+    /* Center the table, and put one blank line above and below */
+    margin: 1em auto; 
+    /* Remove spacing between cells */
+    border-collapse: collapse;
+ }
+ th, td {
+    /* Borders around cells */
+    border: solid 1px gray;
+   /* Add 2px top and bottom padding, 4px side padding in each cell */
+   padding:2px 4px;
+ }
+ 
+ /* Color the background of every other table row */
+ tr:nth-child(even){
+    background-color:#EB984E ;
+ }
+ 
+ /* Give table header cells a gray background */
+ th {
+    background-color: maroon;
+    color:white
+ }
+ .raised{
+    border:solid 1px gray;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px gray;
+    float: right;
